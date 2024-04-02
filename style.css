@@ -4,10 +4,6 @@ body {
     color:white;
 }
 
-h2 {
-    color:lightgray;
-}
-
 .middle {
     width:90%;
     line-height: 300%;
@@ -16,6 +12,16 @@ h2 {
     position:fixed;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.middle h2 {
+    color:lightgray;
+}
+h1 {
+    font-size: 265%;
+}
+h2 {
+    font-size: 125%;
 }
 
 .title {
@@ -34,6 +40,6 @@ h2 {
     top: 11%;
     left: 6%;
     position: fixed;
-    font-size: 150%;
+    font-size: 168%;
     display: flex;
 }
