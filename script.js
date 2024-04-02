@@ -28,4 +28,4 @@ function moveSlide(direction) {
         }
     }
 }
-document.onload = init;
+window.onload = init;
