@@ -4,6 +4,10 @@ body {
     color:white;
 }
 
+h2 {
+    color:lightgray;
+}
+
 .middle {
     width:90%;
     line-height: 300%;
@@ -12,4 +16,24 @@ body {
     position:fixed;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.title {
+    width:90%;
+    top: 3%;
+    left: 4%;
+    position:fixed;
+}
+
+.section {
+    flex: 30%;
+    margin-right: 5%;
+}
+
+.body {
+    top: 11%;
+    left: 6%;
+    position: fixed;
+    font-size: 150%;
+    display: flex;
 }
